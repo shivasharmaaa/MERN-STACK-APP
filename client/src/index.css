@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&family=Sora:wght@500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+a:hover ,a:active{
+  text-decoration: none;
+}
+body{
+    font-family: 'Sora', sans-serif;
+    
+}
+.item-button button{
+    width: 200px;
+    margin-top: 20px;
+    background-color: rgb(16, 78, 9);
+    color: white;
+}
+.item-button button:hover{
+   background-color: white;
+}
+
+.spinner{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 100;
+}
+.spinner-border{
+  height: 100px;
+  width: 100px;
+}
+.category{
+  border: 2px solid gray;
+  padding: 10px;
+  margin-right: 25px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.category img{
+  margin-left: 10px;
+
+ 
+}
+.category-active{
+  border: 2px solid green;
+  background: #f6f4f4ec;
+  color: green;
+}
+/* register page*/
+.register{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+  box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+  background-image:url(img.jpg)   ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.register input{
+  width: 450px;
+  padding: 5px;
+  border-radius: 20px;
+  color: black;
+  margin-top: 10px;
+}
+.register-form{
+  background: transparent;
+  padding: 20px;
+ 
+ 
+}
+.register-form h1{
+  text-align: center;
+  padding: 10px;
+  font-size: 40px;
+  color: white;
+}
+
+
+
+.register-form p {
+  color: white;
+  font-size: 15px;
+  
+  
+}
+/*login page*/
+.login{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+  box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+  background-image:url(img.jpg)   ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.login-form{
+  background: transparent;
+  padding: 20px;
+ 
+ 
+ 
+}
+.login input{
+  width: 450px;
+  padding: 5px;
+  border-radius: 20px;
+  color: black;
+  margin-top: 10px;
+}
+.login-form h1{
+  text-align: center;
+  padding: 10px;
+  font-size: 40px;
+  color: white;
+}
+
+.login-form p {
+  color: white;
+  font-size: 15px;
+  
+  
+}
